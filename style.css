@@ -1,0 +1,123 @@
+.content{
+    position: relative;
+    width: 70%;
+    margin-left: 50px;
+}
+.boxs {
+    position: absolute;
+    border:5px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 7px 10px 5px 0px rgba(184,170,170,0.25);
+    background-color: #F9D799;
+}
+.left-right-side{
+    width: 100px;
+    height: 150px;
+    transform: rotate(90deg);
+
+}
+.top-bottom-side{
+    height: 150px;
+    width: 102px;
+}
+.firsBox {
+    background-color: white;
+    background-image: url(duckl.png);
+}
+
+.player1 {
+    position: absolute;
+    width: 70px;
+    z-index: 10;
+    transition: 1s;
+    transform: translate(0, 40%);
+}
+.player2 {
+    position: absolute;
+    width: 50px;
+    z-index: 10;
+    transition: 1s;
+    transform: translate(0, 40%);
+}
+.img{
+    width: 93px;
+    height: 118px;
+    border:1px solid black;
+}
+.player-info-1{
+    width: 15%;
+    text-align: center;
+    background-color: #6DE1E3;
+    border-radius: 20px;
+    padding:10px 40px;
+    margin-top: 50px;
+    position: sticky;
+}
+.player-info-2{
+    width: 15%;
+    text-align: center;
+    background-color:  #E36D6F;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding:10px 40px;
+}
+.companies{
+    font-weight: 600;
+    color:cornflowerblue
+}
+
+.colors-top-bottom{
+    width: 94px;
+    height: 28px;
+    background: red;
+    border:2px solid black;
+}
+
+.colors-right{
+    width: 94px;
+    height: 28px;
+    background: red;
+    border:2px solid black;
+}
+
+.r_img{
+    transform: rotate(90deg);
+}
+
+.banner{
+    background-image: url(sk2.png);
+    background-size: cover;
+    width: 1300px;
+    height: 1300px;
+    position: absolute;
+    left: -30px;
+    top: 147px;
+}
+
+.q_img{
+    height: 140px;
+    width: 90px;
+    border-radius: 15px;
+}
+
+
+
+.podarok{
+    height: 90px;
+    width: 90px;
+    margin-top: 20px;
+
+}
+
+.nalogi{
+    height: 110px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.person_nalog{
+    height: 130px;
+    width: 90px;
+    margin-top: 10px;
+}

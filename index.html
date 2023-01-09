@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: gray;">
+	<div class="d-flex">
+		<div class="player-info-1">
+			<h2>Игрок 1</h2>
+			<img src="dice.png" class="dice1 w-50">
+			<p class="vipalo1 pt-2" style="font-size: 30px;"></p>
+			<h5>Деньги: <span class="player1_money">3000</span>$</h5>
+			<div class="player1_companies">
+				<p class="companies">Купленные компании:</p>
+				
+			</div>
+		</div>
+		<div class="content">
+			<div class="banner">
+				
+			</div>
+			<img src="kletki/ami_play.png" class="player1" style="top:145px; left:20px; height: 70px; width: 70px !important;">
+			<img src="kletki/bason_play.png" class="player2" style="top:145px; left:70px; height: 60px; width: 60px !important;">
+			<!--первая линия-->
+			<div class="boxs top-bottom-side" style="left: -30px; top:145px; width: 150px !important; background-image: url(go.png) !important; background-size: 100% 99%; background-color: white;">
+				
+			</div>
+			<div class="boxs top-bottom-side" style="left: 130px; top:145px">
+				<img src="kletki/manta.png" class="img" alt="">
+				<div class="colors-top-bottom" style="background-color: #AE661D !important;"></div>
+			</div>
+			<div class="boxs top-bottom-side nalog" style="left: 240px; top:145px;">
+				<img src="kletki/nalog.png" class="nalogi">
+			</div>
+			<div class="boxs top-bottom-side"  style="left: 350px; top:145px">
+				<img src="kletki/moske1.png" class="img" alt="">
+				<div class="colors-top-bottom" style="background-color: #AE661D !important;"></div>
+			</div>
+
+			<div class="boxs top-bottom-side" style="left: 460px; top:145px">
+				<img src="kletki/podarok.png" class="podarok" alt="">
+				
+				
+			</div>
+			<div class="boxs top-bottom-side" style="left: 570px; top:145px; background-color: gray;">
+				<img src="kletki/silva.png" alt="" class="person_nalog">
+				
+				
+			</div>
+			<div class="boxs top-bottom-side" style="left: 680px;   top:145px">
+				<img src="kletki/tigr.png" alt="" class="img">
+				<div class="colors-top-bottom" style="background-color: lightblue !important;"></div>
+			</div>
+
+			<div class="boxs top-bottom-side" style="left: 790px; top:145px">
+				<img src="kletki/rev1.jpg" class="q_img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 900px; top:145px">
+				<img src="kletki/morph.png" alt="" class="img">
+				<div class="colors-top-bottom" style="background-color: lightblue !important;"></div>
+			</div>
+			<div class="boxs top-bottom-side" style="left: 1010px;  top:145px" >
+				<img src="kletki/kororo.png" alt="" class="img">
+				<div class="colors-top-bottom" style="background-color: lightblue !important;"></div>
+			</div>
+
+			<!--вторая линия-->
+			<div class="boxs top-bottom-side" style="left: 1120px; text-align: center; top:145px; width: 150px !important; background-color: white;">
+				<p style="font-size: 50px; margin-top: 30px;"> -5 </p>
+			</div>
+			<div class="boxs left-right-side" style="left: 1143px; top: 275px">
+
+				<img src="kletki/toka.png" alt="" class="img" style="transform: rotate(180deg);">
+				<div class="colors-right" style="background-color: #E14176 !important;"></div>
+			</div>
+			<div class="boxs left-right-side nalog" style="left: 1143px; top: 385px">
+				<img src="kletki/nalog.png" alt="" class="nalogi" style="transform: rotate(180deg);">
+				
+			</div>
+			<div class="boxs left-right-side" style="left: 1143px; top: 495px">
+				<img src="kletki/bason.png" alt="" class="img" style="transform: rotate(180deg);">
+				<div class="colors-right" style="background-color: #E14176 !important;"></div>
+			</div>
+
+			<div class="boxs left-right-side" style="left: 1143px;top: 605px">
+				<img src="kletki/ami.png" alt="" class="img" style="transform: rotate(180deg);">
+				<div class="colors-right" style="background-color: #E14176 !important;"></div>
+			</div>
+			<div class="boxs left-right-side" style="left: 1143px; top: 715px">
+				<img src="kletki/teleport.png" alt="" class="podarok" style="transform: rotate(180deg);">
+				
+			</div>
+			<div class="boxs left-right-side" style="left: 1143px; top: 825px">
+				<img src="kletki/opacho.png" alt="" class="img" style="transform: rotate(180deg);">
+				<div class="colors-right" style="background-color: #FDAD34 !important;"></div>
+			</div>
+
+			<div class="boxs left-right-side" style="left: 1143px; top: 935px">
+				<img src="kletki/podarok.png" alt="" class="podarok" style="transform: rotate(180deg);">
+			</div>
+			<div class="boxs left-right-side" style="left: 1143px; top: 1045px">
+				<img src="kletki/usui.png" alt="" class="img" style="transform: rotate(180deg);">
+				<div class="colors-right" style="background-color: #FDAD34 !important;"></div>
+			</div>
+			<div class="boxs left-right-side" style="left: 1143px; top: 1155px">
+				<img src="kletki/jun.png"  alt="" class="img" style="transform: rotate(180deg);">
+				<div class="colors-right" style="background-color: #FDAD34 !important;"></div>
+			</div>
+
+			<!--третья линия-->
+			<div class="boxs top-bottom-side" style="left: 1120px; top: 1290px; background: white; width: 150px !important;">
+				<p style="font-size: 50px; margin-top: 30px; margin-left: 45px;">-4</p>
+			</div>
+
+			<div class="boxs top-bottom-side" style="left: 1010px; top: 1290px">
+				<div class="colors-right"></div>
+				<img src="kletki/tamao.png"  alt="" class="img" >
+				
+			</div>
+			<div class="boxs top-bottom-side" style="left: 900px; top: 1290px">
+				<div class="colors-top-bottom" ></div>
+				<img src="kletki/marko.png"  alt="" class="img" >
+			</div>
+			<div class="boxs top-bottom-side" style="left: 790px; top: 1290px; background-color: grey;">
+				<img src="kletki/anna1.webp" class="person_nalog">
+			</div>
+
+			<div class="boxs top-bottom-side" style="left: 680px; top: 1290px">
+				<div class="colors-top-bottom"></div>
+				<img src="kletki/deva_janna.png" alt="" class="img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 570px; top: 1290px">
+				<img src="kletki/teleport.png" alt="" class="podarok">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 460px; top: 1290px">
+				<div class="colors-top-bottom" style="background-color: #F1F438 !important;"></div>
+				<img src="kletki/faust1.png" alt="" class="img">
+			</div>
+
+			<div class="boxs top-bottom-side" style="left: 350px; top: 1290px">
+				<div class="colors-top-bottom" style="background-color: #F1F438 !important;"></div>
+				<img src="kletki/lyserg.png" alt="" class="img">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 240px; top: 1290px">
+				<img src="kletki/podarok.png" class="podarok">
+			</div>
+			<div class="boxs top-bottom-side" style="left: 130px; top: 1290px">
+				<div class="colors-top-bottom" style="background-color: #F1F438 !important;"></div>
+				<img src="kletki/ryuunosuke.png" alt="" class="img">
+			</div>
+
+			<!--четвертая линия-->
+			<div class="boxs top-bottom-side" style="left: -30px; top: 1290px; background: red; width: 150px !important; background-color: white;">
+				<p style="font-size: 50px; margin-top: 30px; margin-left: 45px;">-6</p>
+			</div>
+
+			<div class="boxs left-right-side" style="left: -6px; top: 1155px">
+				<div class="colors-right" style="background-color: green !important;"></div>
+				<img src="kletki/horo.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: -6px; top: 1045px">
+				<div class="colors-right" style="background-color: green !important;"></div>
+				<img src="kletki/choco.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side nalog" style="left: -6px; top: 935px">
+				<img src="kletki/nalog.png" class="nalogi">
+			</div>
+
+			<div class="boxs left-right-side" style="left: -6px; top: 825px">
+				<div class="colors-right" style="background-color: green !important;"></div>
+				<img src="kletki/len.png" alt="" class="img">
+			</div>
+			<div class="boxs left-right-side" style="left: -6px; top: 715px">
+				<img src="kletki/rev1.jpg" class="q_img">
+			</div>
+			<div class="boxs left-right-side" style="left: -6px; top: 605px">
+				<div class="colors-right" style="background-color: blue !important;"></div>
+				<img src="kletki/anna.png" alt="" class="img">
+			</div>
+
+			<div class="boxs left-right-side" style="left: -6px; top: 495px;">
+				<div class="colors-right" style="background-color: blue !important;"></div>
+				<img class="img" src="kletki/asakura.png" alt="">
+			</div>
+			<div class="boxs left-right-side nalog" style="left: -6px; top: 385px">
+				<img src="kletki/nalog.png" class="nalogi">
+			</div>
+			<div class="boxs left-right-side" style="left: -6px; top: 275px">
+				<div class="colors-right" style="background-color: blue !important;"></div>
+				<img class="img" src="kletki/hao.png" alt="">
+			</div>
+		</div>
+		<div class="player-info-2">
+		<h2>Игрок 2</h2>
+		<img src="dice.png" class="dice2 w-50">
+		<p class="vipalo2 pt-2" style="font-size: 30px;"></p>
+		<h5>Деньги: <span class="player2_money">3000</span>$</h5>
+		<div class="player2_companies">
+			<p class="companies">Купленные компании: </p>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+let dice1 = document.querySelector(".dice1");
+let dice2 = document.querySelector(".dice2");
+let boxs = document.querySelectorAll(".boxs");
+
+let player1_money = document.querySelector(".player1_money");
+let player2_money = document.querySelector(".player2_money");
+
+let money1 = 3000;
+let money2 = 3000;
+
+
+boxs[1].company = {
+	price: 50,
+	rent: 10,
+	owner: null,
+	name: "Манта"
+}
+
+boxs[3].company = {
+	price: 80,
+	rent: 15,
+	owner: null,
+	name: "Моске"
+}
+
+boxs[6].company = {
+	price: 110,
+	rent: 20,
+	owner: null,
+	name: "Мик"
+}
+
+
+
+boxs[8].company = {
+	price: 200,
+	rent: 50,
+	owner: null,
+	name: "Морфин"
+}
+
+boxs[9].company = {
+	price: 200,
+	rent: 50,
+	owner: null,
+	name: "Короро"
+}
+
+boxs[11].company = {
+	price: 230,
+	rent: 60,
+	owner: null,
+	name: "Токагеро"
+}
+
+boxs[13].company = {
+	price: 250,
+	rent: 65,
+	owner: null,
+	name: "Басон"
+}
+
+boxs[14].company = {
+	price: 280,
+	rent: 70,
+	owner: null,
+	name: "Амидамару"
+}
+
+boxs[16].company = {
+	price: 300,
+	rent: 80,
+	owner: null,
+	name: "Опачо"
+}
+
+boxs[18].company = {
+	price: 350,
+	rent: 90,
+	owner: null,
+	name: "Пирика"
+}
+
+boxs[19].company = {
+	price: 400,
+	rent: 100,
+	owner: null,
+	name: "Джун"
+}
+
+boxs[21].company = {
+	price: 450,
+	rent: 110,
+	owner: null,
+	name: "Тамао"
+}
+
+boxs[22].company = {
+	price: 480,
+	rent: 120,
+	owner: null,
+	name: "Марко"
+}
+
+boxs[24].company = {
+	price: 500,
+	rent: 130,
+	owner: null,
+	name: "Дева Жанна"
+}
+
+boxs[26].company = {
+	price: 550,
+	rent: 140,
+	owner: null,
+	name: "Фауст"
+}
+
+boxs[27].company = {
+	price: 550,
+	rent: 140,
+	owner: null,
+	name: "Лайсерг"
+}
+
+
+boxs[29].company = {
+	price: 600,
+	rent: 150,
+	owner: null,
+	name: "Рюноске"
+}
+
+boxs[31].company = {
+	price: 650,
+	rent: 160,
+	owner: null,
+	name: "Хоро"
+}
+
+boxs[32].company = {
+	price: 700,
+	rent: 165,
+	owner: null,
+	name: "Чоколав"
+}
+
+boxs[34].company = {
+	price: 800,
+	rent: 170,
+	owner: null,
+	name: "Рен"
+}
+
+boxs[36].company = {
+	price: 830,
+	rent: 180,
+	owner: null,
+	name: "Анна"
+}
+
+boxs[37].company = {
+	price: 870,
+	rent: 190,
+	owner: null,
+	name: "Йо"
+}
+
+
+boxs[39].company = {
+	price: 900,
+	rent: 200,
+	owner: null,
+	name: "Хао"
+}
+
+let numbers = [1, 2, 3, 4, 5, 6];
+let step = 0;
+let step2 = 0;
+let max=0;
+let max2=0;
+let player1 = document.querySelector(".player1");
+let player2 = document.querySelector(".player2");
+let queue = "player1";
+let player1_companies = document.querySelector(".player1_companies");
+let player2_companies = document.querySelector(".player2_companies");
+
+function getRandom(arg){
+    let x = Math.random() * arg;
+    let y = Math.round(x);
+    return y;
+}
+
+let pass = null;
+
+function move(player, step, who){
+	if(step == 2){
+		alert("Вам не повезло!! Платите налог 200$!!");
+		if (who == "player1") {
+			money1 = money1 - 200;
+			player1_money.innerHTML = money1;
+		}else{
+			money2 = money2 - 200;
+			player2_money.innerHTML = money2;
+		}
+		
+	}
+
+	if(step == 4){
+		alert("Вам повезло!! Ваша бабушка подарила вам деньги в размере 200$!!");
+		if (who == "player1") {
+			money1 = money1 + 200;
+			player1_money.innerHTML = money1;
+		}else{
+			money2 = money2 + 200;
+			player2_money.innerHTML = money2;
+		}
+		
+	}
+
+	if(step == 5){
+		alert("Вы наткнулись на кафе патчей!! У вас нет выбора, кроме как посетить его. Платите 150$!");
+		if (who == "player1") {
+			money1 = money1 - 150;
+			player1_money.innerHTML = money1;
+		}else{
+			money2 = money2 - 150;
+			player2_money.innerHTML = money2;
+		}
+	}
+
+	if(step == 7 || step == 35){
+		pass = who; 
+		alert("Вы пропускаете следующий ход.");
+	}
+
+	if (step == 10) {
+		alert("-5");
+		step = step - 5;
+	}
+
+	if(step == 12){
+		alert("Вам не повезло!! Платите налог 100$!!");
+		if (who == "player1") {
+			money1 = money1 - 100;
+			player1_money.innerHTML = money1;
+		}else{
+			money2 = money2 - 100;
+			player2_money.innerHTML = money2;
+		}
+	}
+
+	if (step == 15) {
+		alert("Вы наткнулись на клетку телепорт!! Отправляйтесь на клетку 25");
+		step = step + 10;
+	}
+
+	if (step == 17) {
+		alert("Вам повезло!! Ваша бабушка подарила вам деньги в размере 100$!!");
+		if (who == "player1") {
+			money1 = money1 + 100;
+			player1_money.innerHTML = money1;
+		}else{
+			money2 = money2 + 100;
+			player2_money.innerHTML = money2;
+		}
+	}
+
+	if (step == 20) {
+		alert("-4")
+		step  = step - 4;		
+	}
+
+	if (step == 23) {
+		alert("Анна забрала 300$ на шоппинг..");
+		if (who == "player1") {
+			money1 = money1 - 300;
+			player1_money.innerHTML = money1;
+		}else{
+			money2 = money2 - 300;
+			player2_money.innerHTML = money2;
+		}
+	}
+
+	if (step == 28) {
+		alert("Поздравляю!! Бабушка подарила вам деньги в размере 50$!!");
+		if (who == "player1") {
+			money1 = money1 + 50;
+			player1_money.innerHTML = money1;
+		}else{
+			money2 = money2 + 50;
+			player2_money.innerHTML = money2;
+		}
+	}
+
+	if (step == 30) {
+		alert("-6")
+		step  = step - 6;
+			
+	}
+
+	if (step == 33 || step == 38) {
+		alert("Невезение! Вам придётся заплатить налог 150$.");
+		if (who == "player1") {
+			money1 = money1 - 150;
+			player1_money.innerHTML = money1;
+		}else{
+			money2 = money2 - 150;
+			player2_money.innerHTML = money2;
+		}
+	}
+
+
+
+
+	player.style.left = boxs[step].style.left;
+	player.style.top = boxs[step].style.top;
+
+	return step;
+}
+
+dice1.onclick = function(){
+	let index = getRandom(5);
+	let random = numbers[index];
+	document.querySelector(".vipalo1").innerHTML = random;
+
+	if (queue == "player1") {
+
+		queue = "player2";
+
+		if (pass == "player2") {
+			queue = "player1";
+			pass = null;
+		}
+		step = step + random;
+
+
+		if(step >= 40){
+			step = step - 40;
+		}
+
+		step = move(player1, step, "player1");
+
+		function check(){
+			if (boxs[step].company.owner == null){
+				if (money1 >= boxs[step].company.price) {
+					let result = confirm("Покупаете ли вы " + boxs[step].company.name + "? Цена: " + boxs[step].company.price + "$. Аренда: " + boxs[step].company.rent + "$");
+
+					if(result == true){
+						boxs[step].company.owner = "player1"; 
+						money1 = money1 - boxs[step].company.price;
+						player1_money.innerHTML = money1;
+						boxs[step].style.background = "lightblue";
+
+						let comp = document.createElement("p");
+						player1_companies.appendChild(comp);
+						comp.innerHTML = boxs[step].company.name;
+
+						
+					}else{
+						alert("Игрок 1 отказался от покупки компании: " + boxs[step].company.name)
+					}
+				}else{
+					alert("У вас не достаточно средств на покупку компании " + boxs[step].company.name);
+				}
+					
+
+			}else if(boxs[step].company.owner == "player2"){
+				alert("Компания "+ boxs[step].company.name + " принадлежит второму игроку. Платите аренду " + boxs[step].company.rent );
+				if (money1 < boxs[step].company.rent){
+					alert("У вас не достаточно денег на оплату аренды. Вы проиграли");
+				}else{
+					money1 = money1 - boxs[step].company.rent;
+					money2 = money2 + boxs[step].company.rent;
+					player1_money.innerHTML = money1;
+					player2_money.innerHTML = money2;
+				}
+
+			}else if(boxs[step].company.owner == "player1"){
+				alert("Вы попали на свою компанию");
+			}
+		}
+
+		setTimeout(check, 1500);
+		player1.style.left = boxs[step].style.left;
+		player1.style.top = boxs[step].style.top;
+		}
+	}
+
+dice2.onclick = function(){
+	let index = getRandom(5);
+	let random = numbers[index];
+	document.querySelector(".vipalo2").innerHTML = random;
+
+	if (queue = "player2"){
+
+		queue = "player1";
+
+		if (pass == "player1") {
+			queue = "player2";
+			pass = null;
+		}
+		step2 = step2 + random;
+		if(step2 >= 40){
+			step2 = step2 - 40;
+		}
+
+		step2 = move(player2, step2, "player2");
+
+
+		function check(){
+			if (boxs[step2].company.owner == null){
+				if (money2 >= boxs[step2].company.price) {
+					let result = confirm("Покупаете ли вы " + boxs[step2].company.name + "? Цена: " + boxs[step2].company.price + "$. Аренда: " + boxs[step2].company.rent + "$");
+
+					if(result == true){
+						boxs[step2].company.owner = "player2"; 
+						money2 = money2 - boxs[step2].company.price;
+						player2_money.innerHTML = money2;
+						boxs[step2].style.background = "red";
+
+						let comp = document.createElement("p");
+						player2_companies.appendChild(comp);
+						comp.innerHTML = boxs[step2].company.name;
+					}else{
+						alert("Игрок 2 отказался от покупки компании: " + boxs[step2].company.name);
+					}
+
+				}else{
+					alert("У вас не достаточно средств на покупку компании" + boxs[step2].company.name);
+				}
+					
+			}else if(boxs[step2].company.owner == "player1"){
+				alert("Компания "+ boxs[step2].company.name + " принадлежит 1 игроку. Платите аренду " + boxs[step2].company.rent );
+				if (money2 < boxs[step2].company.rent){
+					alert("У вас не достаточно денег на оплату аренды. Вы проиграли");
+				}else{
+					money2 = money2 - boxs[step2].company.rent;
+					money1 = money1 + boxs[step2].company.rent;
+					player1_money.innerHTML = money1;
+					player2_money.innerHTML = money2;
+				}
+
+			}else if(boxs[step2].company.owner == "player2"){
+				alert("Вы попали на свою компанию");
+			}
+		}
+
+		setTimeout(check, 1500)
+	}
+}	
+
+
+	
+</script>
+
+
+</body>
+</html>
+
+
